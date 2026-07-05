@@ -1,0 +1,6 @@
+iname = "Dev-Server"
+itype = "t3.micro"
+key = "KOPSKP"
+az = "us-east-1a"
+volume = 10
+ami_id = "ami-06067086cf86c58e6"
