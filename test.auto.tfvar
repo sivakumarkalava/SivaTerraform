@@ -1,0 +1,6 @@
+iname = "test-Server"
+itype = "c7i-flex.large"
+key = "KOPSKP"
+az = "us-east-1b"
+volume = 20
+ami_id = "ami-06067086cf86c58e6"
