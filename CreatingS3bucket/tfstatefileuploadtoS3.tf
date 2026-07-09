@@ -7,7 +7,7 @@
 terraform {
   backend "s3" { ##we call this as backend file
     bucket       = "s3bucket4statefile09"
-    key          = "prod/terraform.tfstate"
+    key          = "prod/terraform.tfstate" ##path in s3 bucket where we are saving tfstate file.
     region       = "us-east-1"
     use_lockfile = true
   }
